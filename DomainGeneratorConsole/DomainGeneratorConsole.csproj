@@ -43,11 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppCollections\CityNamesCollection.cs" />
+    <Compile Include="AppCollections\DomainNameBaseCollection.cs" />
+    <Compile Include="AppCollections\FruitNamesCollection.cs" />
+    <Compile Include="AppEntities\DomainCard.cs" />
+    <Compile Include="AppEnums\EnumDefinitions.cs" />
+    <Compile Include="AppInterfaces\IPopulate.cs" />
+    <Compile Include="Generators\DomainGenerator.cs" />
+    <Compile Include="Generators\RandomGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
